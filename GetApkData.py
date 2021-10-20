@@ -5,7 +5,7 @@ sys.setdefaultencoding("utf-8")
 import os
 import time
 sys.path.append("Modules")
-sys.path.append("Androguard")
+import androguard
 import re
 import multiprocessing as mp
 
