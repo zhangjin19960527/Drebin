@@ -25,8 +25,8 @@ def extract_file(dir):
 print(extract_file("features"))
 FeatureVectorizer = CF(input="filename", tokenizer=lambda x: x.split('\n'), token_pattern=None,
                            binary=True)
-mal_features=extract_file("Drebinfeatures/malware1")
-good_features=extract_file("Drebinfeatures/allgoodapk1")
+mal_features=extract_file("res/malware")
+good_features=extract_file("res/benign")
 x_train = FeatureVectorizer.fit_transform(mal_features + good_features)
 print x_train
 mal_labels=np.ones(len(mal_features))
