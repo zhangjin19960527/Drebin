@@ -28,7 +28,7 @@ FeatureVectorizer = CF(input="filename", tokenizer=lambda x: x.split('\n'), toke
 mal_features=extract_file("res/malware")
 good_features=extract_file("res/benign")
 x_train = FeatureVectorizer.fit_transform(mal_features + good_features)
-print x_train
+
 mal_labels=np.ones(len(mal_features))
 good_labels=np.empty(len(good_features))
 good_labels.fill(-1)
