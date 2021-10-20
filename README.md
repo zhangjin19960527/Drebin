@@ -1,8 +1,8 @@
 # Drebin
-How to run this program?
-first step:
+##How to run this program?
+###step 1:
 Put the malware data set in the res/malware folder, and put the normal software data set in the res/benign folder.
-The second step:
+###step 2:
 python GetApkdata.py
-third step:
+###step 3:
 python train.py
