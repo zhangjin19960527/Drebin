@@ -261,3 +261,6 @@ def GetApkData(ProcessNumber, *ApkDirectoryPaths):
     pool.join()
 
     return
+if __name__ == '__main__':
+    GetApkData(psutil.cpu_count(), "res/benign")
+    GetApkData(psutil.cpu_count(), "res/malware")
