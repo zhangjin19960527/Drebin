@@ -1,6 +1,6 @@
 # Drebin Re-implementation
 
-This repository contains our re-implementation of **Drebin** (*Drebin: Effective and Explainable Detection of Android Malware in Your Pocket*, NDSS 2014). The official implementation of Drebin has some issues that prevent it from generating the expected results.
+This repository contains our re-implementation of **Drebin** (*Drebin: Effective and Explainable Detection of Android Malware in Your Pocket*, NDSS 2014). The existing Re-implementation versions of Drebin have some issues that prevent it from generating the expected results, so we rebuilt it again.
 
 If you use this version in your project, please cite our paper:
 
